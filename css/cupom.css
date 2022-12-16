@@ -1,0 +1,15 @@
+.cupom {
+    position: fixed;
+    width: 300px;
+    height: 600px;
+    border: 1px solid red;
+    max-height: 600px;
+    right: 0;
+    margin-right: 10px;
+}
+
+@media (max-width: 1303px) {
+    .cupom {
+        visibility: hidden;
+    }
+}

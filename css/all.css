@@ -1,0 +1,23 @@
+@import 'header.css';
+@import 'menu.css';
+@import 'cupom.css';
+@import 'content.css';
+
+* {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    font-family: -apple-system,BlinkMacSystemFont,Helvetica Neue,Segoe UI,Tahoma,Roboto,Oxygen,Ubuntu,Cantarell,Fira Sans,Open Sans,sans-serif;
+    background-color: #ECECEC;
+}
+
+.main {
+    padding: 70px 10px 0px 10px;
+    display: flex;
+    margin: 1px solid red;
+}

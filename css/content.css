@@ -1,0 +1,166 @@
+.content {
+    width: 100%;
+    margin: 0 309px 10px 10px;
+}
+
+@media (max-width: 1303px) {
+    .content {
+        position: absolute;
+        margin: 0;
+        padding: 20px;
+    }
+    .main {
+        padding: 70px 0px 0px 0px;
+    }
+}
+
+.banner img {
+    width: 100%;
+}
+
+.sports {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+    border-radius: 4px;
+    background-color: white;
+    padding: 10px;
+}
+
+.sports-item {
+    padding: 8px;
+    text-decoration: none;
+    color: #2d2d2d;
+    background-color: #f0f0f0;
+    font-weight: bold;
+    font-size: 14px;
+    border-radius: 4px;
+    width: 100%;
+}
+
+.sports-item:hover {
+    color: #f0fdf9;
+    background-color: #116e51;
+}
+
+.main-list {
+    background-color: white;
+    padding: 5px;
+    margin-top: 10px;
+    border-radius: 4px;
+}
+
+.championship {
+    padding: 8px;
+    text-decoration: none;
+    color: #2d2d2d;
+    background-color: #dadada;
+    font-weight: bold;
+    font-size: 14px;
+    border-radius: 4px;
+    width: 100%;
+}
+
+table {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td {
+    text-align: center;
+}
+
+th {
+    padding: 3px;
+}
+
+thead {
+    background-color: #116e51;
+    color: white;
+}
+
+.time {
+    width: 50px;
+}
+
+.teams {
+    text-align: left;
+    padding: 5px 0px 5px 10px;
+    width: 900px;
+}
+
+.odd-home a {
+    padding: 8px;
+    text-decoration: none;
+    color: #2d2d2d;
+    background-color: #f0f0f0;
+    font-weight: bold;
+    font-size: 14px;
+    border-radius: 4px;
+    width: 100%;
+    margin-left: 10px;
+}
+
+.odd-home a:hover {
+    color: #f0fdf9;
+    background-color: #116e51;
+}
+
+.odd-draw a {
+    padding: 8px;
+    text-decoration: none;
+    color: #2d2d2d;
+    background-color: #f0f0f0;
+    font-weight: bold;
+    font-size: 14px;
+    border-radius: 4px;
+    width: 100%;
+    margin-left: 10px;
+}
+
+.odd-draw a:hover {
+    color: #f0fdf9;
+    background-color: #116e51;
+}
+
+.odd-away a {
+    padding: 8px;
+    text-decoration: none;
+    color: #2d2d2d;
+    background-color: #f0f0f0;
+    font-weight: bold;
+    font-size: 14px;
+    border-radius: 4px;
+    width: 100%;
+    margin-left: 10px;
+}
+
+.odd-away a:hover {
+    color: #f0fdf9;
+    background-color: #116e51;
+}
+
+.more a {
+    padding: 8px;
+    text-decoration: none;
+    color: #2d2d2d;
+    background-color: #f0f0f0;
+    font-weight: bold;
+    font-size: 14px;
+    border-radius: 4px;
+    width: 100%;
+    margin-left: 10px;
+}
+
+.more a:hover {
+    color: #f0fdf9;
+    background-color: #116e51;
+}
+
+.game-row {
+    border-bottom: 1px solid rgb(0, 0, 0, .2);
+}
+

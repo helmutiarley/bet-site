@@ -1,0 +1,108 @@
+header {
+    background-color: #116e51;
+    height: 60px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    width: 100%;
+}
+
+@media (max-width: 1303px) {
+    header {
+        position: absolute;
+    }
+}
+
+header div.header-left h2 {
+    margin-left: 20px;
+    color: white;
+}
+
+/* header div.header-middle {
+    font-size: 14px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 150px;
+}
+
+header div.header-middle a {
+    color: #ffffff;
+}
+
+header div.header-middle a:hover {
+    color: #26ffbe;
+}
+
+header div.header-middle div#sports {
+    border-bottom: 2px solid #ffdf1b;
+    height: 60px;
+    display: flex;
+    align-items: center;
+}
+
+header div.header-middle div#live {
+    height: 60px;
+    display: flex;
+    align-items: center;
+} */
+
+header div.header-right {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-right: 20px;
+}
+
+header div.header-right > svg {
+    color: white;
+}
+
+header div.header-right a {
+    color: #ffffff;
+    font-size: 13px;
+}
+
+header div.header-right a:hover {
+    color: #26ffbe;
+}
+
+header div.header-right div#login {
+    padding: 8px;
+    text-decoration: none;
+    color: #2d2d2d;
+    background-color: #f0f0f0;
+    font-weight: bold;
+    font-size: 14px;
+    border-radius: 4px;
+    width: 100%;
+}
+
+header div.header-right div#login:hover {
+    background-color: #e4e4e4;
+}
+
+header div.header-right div#login a {
+    font-size: 13px;
+    color: black;
+    padding: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
